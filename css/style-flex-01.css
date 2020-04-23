@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  display: block;
+  width: 10%;
+  min-width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.box-1{
+  background-color: #60a17e;
+}
+
+.box-2{
+  background-color: #070760;
+}
+
+.box-3{
+  background-color: #f98909;
+}
+.box-4{
+  background-color: #623b71;
+}
