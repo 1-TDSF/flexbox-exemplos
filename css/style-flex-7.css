@@ -8,8 +8,8 @@
 
 .box{
   display: block;
-  /*width: 10%;
-  min-width: 200px;*/
+  width: 10%;
+  min-width: 200px;
   height: 100px;
   margin: 20px;
   padding: 10px;
@@ -18,20 +18,21 @@
 .box-1{
   background-color: #d74d20;
   color: #fff;
-  flex-basis: 90px;
+  order: 3;
 }
 .box-2{
   background-color: #9be948;
   color: #fff;
-  flex-grow: 1;
+  order:1;
 }
 .box-3{
   background-color: #cb5993;
   color: #fff;
-  flex-basis: 90px;
+  order:4;
 }
 .box-4{
   background-color: #251c15;
   color: #fff;
-  flex-basis: 90px;
+  order: 2;
+
 }
