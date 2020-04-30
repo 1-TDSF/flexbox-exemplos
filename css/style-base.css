@@ -1,20 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-/*
-reset
-*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/*
-reset
-*/
 
 body{
-  font-family:'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 h1,h2,h3{
@@ -23,8 +12,8 @@ h1,h2,h3{
 
 .container{
   width: 99%;
-  height: 400px;
-  margin: 10px;
+  height: 900px;
+  margin: 10px auto;
   padding: 10px;
-  background-color: #e2e2e2;
+  background-color: #e3dddd;
 }
